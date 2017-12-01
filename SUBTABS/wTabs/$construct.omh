@@ -1,0 +1,7 @@
+;  Enter your initialization code here
+
+Do $cwind.$objs.tabpane.$objs.$sendall($ref.$init(),$cwind.$objs.tabpane.$panenumber($sendallref)=$cwind.$objs.tabpane.$currenttab)
+
+;  To set the current tab, to a tab other than the default first tab, use the following code
+;  Do $cwind.$objs.tabpane.$currenttab.$assign(2)     ;; 2 = Tab2, 3 = Tab3
+;  In this case the init() method in the subwindow will be run

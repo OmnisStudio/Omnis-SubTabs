@@ -1,0 +1,2 @@
+On evTabSelected     ;; Event Parameters - pTabNumber ( integer )
+	Do $cobj.$objs.$sendall($ref.$init(),$cobj.$panenumber($sendallref)=pTabNumber)
